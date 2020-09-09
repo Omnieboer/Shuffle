@@ -31,8 +31,9 @@ fun main() {
 //        println("Cards: $lowerBound - Shuffles: $index")
         //Not so pretty output
 //        print("$index ")
-        //CSV output
-        println("$lowerBound,$index")
+        //CSV output, change radix to print out in something apart from base 10. ie. make it 2 to print out the binary.
+        val radix = 10
+        println("${lowerBound.toString(radix)},${index.toString(radix)}")
         //Keep track of min and max values of shuffles
         if (index > max) {
             max = index
