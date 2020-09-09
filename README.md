@@ -52,5 +52,6 @@ Here is a longer list of just the shuffles number (3 up to 99 cards):
 ```
 
 It's insane to me that 98 cards takes 12 shuffles and 99 cards take 98 shuffles.
-Cards: 4973 - Shuffles: 24
-Cards: 4984 - Shuffles: 4983
+Some examples of weird results.
+- Cards: 4973 - Shuffles: 24
+- Cards: 4984 - Shuffles: 4983
