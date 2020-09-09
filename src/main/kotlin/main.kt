@@ -1,5 +1,5 @@
 fun main() {
-    // Range of ranges to check. Defaults checks [1,2,3] up to and including [1,2,3,...,98,99,100]
+    // Range of ranges to check. Defaults checks [1,2,3] up to and including [1,2,3,...,998,999,1000]
     var lowerBound = 3
     val upperBound = 1000
 
@@ -28,9 +28,11 @@ fun main() {
         // Use this to find all cases where n(cards) = n(shuffles) + 1
 //        if (upperBound == index + 1) { }
         //Pretty output
-        println("Cards: $lowerBound - Shuffles: $index")
+//        println("Cards: $lowerBound - Shuffles: $index")
         //Not so pretty output
 //        print("$index ")
+        //CSV output
+        println("$lowerBound,$index")
         //Keep track of min and max values of shuffles
         if (index > max) {
             max = index
