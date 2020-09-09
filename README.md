@@ -51,6 +51,11 @@ Here is a longer list of just the number of shuffles (3 up to 99 cards):
 2 3 3 5 6 4 4 9 6 11 10 9 14 5 5 12 18 12 10 7 12 23 21 8 26 20 9 29 30 6 6 33 22 35 9 20 30 39 27 41 8 28 11 12 10 36 24 15 50 51 12 53 18 36 14 44 12 24 55 20 50 7 7 65 18 36 34 69 46 60 14 42 74 15 24 20 26 52 33 81 20 83 78 9 86 60 29 89 90 60 18 40 18 95 48 12 98 99
 ```
 
+The min and max of shuffles in 3-2000 cards is:
+- Cards: 3 - Shuffles: 2
+- Cards: 1995 - Shuffles: 1994
+The min and max of the shuffles seems pretty close to the min and max of the range.
+
 It's insane to me that 98 cards takes 12 shuffles and 99 cards take 98 shuffles.
 Some examples of weird results:
 - Cards: 4973 - Shuffles: 24
