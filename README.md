@@ -63,6 +63,20 @@ Non-interactive graph is right here:
 
 ![Scatterplot](Rplot/Scatterplot.svg)
 
+Here is one with some lines added:
+
+![Scatterplot with Lines](Rplot/ScatterplotWithLines.png)
+
+Lines added:
+```r
+fun.0 <- function(x) x
+fun.1 <- function(x) 2 * x / 3
+fun.2 <- function(x) 4 * x / 5
+fun.3 <- function(x) x / 2
+fun.4 <- function(x) x / 3
+fun.5 <- function(x) x / 5
+```
+
 It's insane to me that 98 cards takes 12 shuffles and 99 cards take 98 shuffles.
 Some examples of weird results:
 - Cards: 4973 - Shuffles: 24
