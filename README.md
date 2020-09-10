@@ -61,7 +61,7 @@ Made by the code found in the Rplot directory.
 
 Non-interactive graph is right here:
 
-![Scatterplot](Rplot\Scatterplot.png)
+![Scatterplot](Rplot/Scatterplot.svg)
 
 It's insane to me that 98 cards takes 12 shuffles and 99 cards take 98 shuffles.
 Some examples of weird results:
