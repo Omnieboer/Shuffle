@@ -55,7 +55,7 @@ The min and max of shuffles in 3-2000 cards is:
 - Cards: 3 - Shuffles: 2
 - Cards: 1995 - Shuffles: 1994
 
-Apparently this sequence is already clamed on OEIS: [A003558](https://oeis.org/A003558). I still don't get it though.
+Apparently this sequence is already clamed on OEIS: [A003558](https://oeis.org/A003558). (Thanks [u/EspadaV8](https://www.reddit.com/r/MattParker/comments/iq1j4n/shuffling_cards_badly/g4oef03?utm_source=share&utm_medium=web2x&context=3)) I still don't get it though.
 
 The min and max of the shuffles seems pretty close to the min and max of the range.
 This can be seen in the interactive graph at [this link](https://tomasnieboer.shinyapps.io/Shuffles/).
