@@ -33,7 +33,9 @@ server <- function(input, output) {
 
     plot <- logs %>%
         ggplot(mapping = aes(x = cards, y = shuffles)) +
-        geom_line()
+        geom_line(alpha = 0.1) +
+        geom_point()
+
     output$distPlot <- renderPlotly({
         #plot
         ggplotly(plot, tooltip = c("cards", "shuffles"))
