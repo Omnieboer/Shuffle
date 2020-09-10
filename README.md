@@ -54,7 +54,10 @@ Here is a longer list of just the number of shuffles (3 up to 99 cards):
 The min and max of shuffles in 3-2000 cards is:
 - Cards: 3 - Shuffles: 2
 - Cards: 1995 - Shuffles: 1994
+
 The min and max of the shuffles seems pretty close to the min and max of the range.
+This can be seen in the interactive graph at [this link](https://tomasnieboer.shinyapps.io/Shuffles/).
+Made by the code found in the Rplot directory.
 
 It's insane to me that 98 cards takes 12 shuffles and 99 cards take 98 shuffles.
 Some examples of weird results:

@@ -1,0 +1,12 @@
+name: Shuffles
+title: Shuffles
+username:
+account: tomasnieboer
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2782146
+bundleId: 3614301
+url: https://tomasnieboer.shinyapps.io/Shuffles/
+when: 1599726845.3377
+asMultiple: FALSE
+asStatic: FALSE
