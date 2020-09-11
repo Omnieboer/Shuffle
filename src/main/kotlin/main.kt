@@ -18,22 +18,35 @@ fun main() {
         //I'm keeping in a bunch of commented code to check different outputs. For example, seeing the original ordered list.
 //        println("0: $original")
         var index = 0
+
+        //Seeing how many elements stay static
+        var static = Int.MAX_VALUE
+
         // Shuffle the deck until it is the same as the original. Do{..}while() because the two lists are the same before the first shuffle.
         do {
+            var tempStatic = 0
             shuffleOnce(changing)
             //Keep track of the amount of shuffles
             index++
+            original.forEachIndexed { i, card ->
+                if (changing[i] == card) {
+                    tempStatic++
+                }
+            }
+            if (tempStatic < static) {
+                static = tempStatic
+            }
 //            println("$index: $changing")
         } while (original != changing)
         // Use this to find all cases where n(cards) = n(shuffles) + 1
 //        if (upperBound == index + 1) { }
         //Pretty output
-//        println("Cards: $lowerBound - Shuffles: $index")
-        //Not so pretty output
+//        println("Cards: $lowerBound - Shuffles: $index - Static points: $static")
+//        Not so pretty output
 //        print("$index ")
         //CSV output, change radix to print out in something apart from base 10. ie. make it 2 to print out the binary.
         val radix = 10
-        println("${lowerBound.toString(radix)},${index.toString(radix)}")
+        println("${lowerBound.toString(radix)},${index.toString(radix)},${static.toString(radix)}")
         //Keep track of min and max values of shuffles
         if (index > max) {
             max = index
