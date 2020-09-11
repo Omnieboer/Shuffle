@@ -41,12 +41,12 @@ fun main() {
         // Use this to find all cases where n(cards) = n(shuffles) + 1
 //        if (upperBound == index + 1) { }
         //Pretty output
-//        println("Cards: $lowerBound - Shuffles: $index - Static points: $static")
+        println("Cards: $lowerBound - Shuffles: $index")
 //        Not so pretty output
 //        print("$index ")
         //CSV output, change radix to print out in something apart from base 10. ie. make it 2 to print out the binary.
-        val radix = 10
-        println("${lowerBound.toString(radix)},${index.toString(radix)},${static.toString(radix)}")
+//        val radix = 10
+//        println("${lowerBound.toString(radix)},${index.toString(radix)}")
         //Keep track of min and max values of shuffles
         if (index > max) {
             max = index
