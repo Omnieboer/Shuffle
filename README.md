@@ -1,5 +1,7 @@
 # Shuffling badly
 
+See also: https://github.com/Identity-numbers/identity-generator
+
 I was playing around with some business cards and got wondering about the pattern of shuffling those cards badly. The example case has 8 cards in a stack, let's call them 1 through to 8, even though 0-indexing is obviously superior.
 
 I then shuffle the cards consistently and badly:
